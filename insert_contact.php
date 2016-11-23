@@ -28,7 +28,7 @@ if(mail($to, $subject, $body)) {
 	 echo "mchaaaaaaaaaa";
 
 } else {
-	 echo "ch blan";
+	 echo "ch blan".$nom;
 }
 
 ?>
