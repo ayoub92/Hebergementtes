@@ -14,7 +14,7 @@
     <div class="container-fluid" style="margin-top:20px;">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <form name="sig" action="#" id="monFormulair" class="form-horizontal" >
+                <form name="sig" action="insert_contact.php" id="monFormulair" class="form-horizontal" >
                     <div class="form-group">
                         <label class="col-xs-2 control-label" for="nom">Nom</label>
                         <div class="col-xs-10">
