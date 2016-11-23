@@ -54,7 +54,7 @@
                     <div class="form-group">
                         <div class="col-xs-12">
                             <span data-message="errorForm" ></span>
-                            <input type="submit" class="btn btn-primary pull-right qtion1" value="Ajouter"  />
+                            <input type="submit" class="btn btn-primary pull-right qtion1" value="Envoyer"  />
                         </div>
                     </div>
                 </form>
