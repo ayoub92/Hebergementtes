@@ -14,11 +14,11 @@
     <div class="container-fluid" style="margin-top:20px;">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <form name="sig" action="insert_contact.php" id="monFormulair" class="form-horizontal" >
+                <form name="sig" action="insert_contact.php" id="monFormulair"  method="post" class="form-horizontal" >
                     <div class="form-group">
                         <label class="col-xs-2 control-label" for="nom">Nom</label>
                         <div class="col-xs-10">
-                            <input type="text" id="nom" class="form-control" placeholder="Nom">
+                            <input type="text" id="nom" name="nom" class="form-control" placeholder="Nom">
                         </div>
                     </div>
                     <div class="form-group">
@@ -28,27 +28,27 @@
                         </div>
                     </div>                    
                     <div class="form-group">
-                        <label class="col-xs-2 control-label" for="adresse">Adresse</label>
+                        <label class="col-xs-2 control-label" for="adresse">subject</label>
                         <div class="col-xs-10">
-                            <textarea  id="adresse" rows = "4" class="form-control" placeholder="Adresse"></textarea>
+                            <textarea  id="adresse" name="sujet" rows = "2" class="form-control" placeholder="subject"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-xs-2 control-label" for="phone">Téléphone</label>
                         <div class="col-xs-10">
-                            <input type="text" id="phone" class="form-control" placeholder="+212">
+                            <input type="text" id="phone" name="phone" class="form-control" placeholder="+212">
                         </div>
                     </div>     
                     <div class="form-group">
                         <label class="col-xs-2 control-label" for="email">E-mail</label>
                         <div class="col-xs-10">
-                            <input type="email" id="email" class="form-control" placeholder="E-mail">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="E-mail">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-xs-2 control-label" for="message">Message</label>
                         <div class="col-xs-10">
-                            <textarea  id="message" rows = "5" class="form-control" placeholder="message"></textarea>
+                            <textarea  id="message" rows = "5" name="message" class="form-control" placeholder="message"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
