@@ -24,6 +24,7 @@ $body.='Sujet: '.$sujet."\n";
 $body.='Message: '."\n".$message."\n";
 $url='message envoye.php';
 $url1='erreur.php';
+mail($to, $subject, $body);
 if(mail($to, $subject, $body)) {
 	 echo "mchaaaaaaaaaa";
 
