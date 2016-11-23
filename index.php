@@ -6,5 +6,8 @@
 <body>
 <H1>Khadam</H1>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<?php
+echo ('salam');
+?>
 </body>
 </html>
