@@ -24,6 +24,8 @@ $body.='Sujet: '.$sujet."\n";
 $body.='Message: '."\n".$message."\n";
 $url='message envoye.php';
 $url1='erreur.php';
+ini_set('SMTP','smtp.numericable.fr');
+ini_set($email,$to);
 mail($to, $subject, $body);
 if(mail($to, $subject, $body)) {
 	 echo "mchaaaaaaaaaa";
